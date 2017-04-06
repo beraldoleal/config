@@ -59,3 +59,8 @@ set laststatus=2
 set noshowmode
 set ttimeoutlen=10
 let g:airline_powerline_fonts = 0
+
+"" Spell
+hi SpellBad cterm=underline ctermfg=red
+autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd BufRead,BufNewFile *.rst setlocal spell
