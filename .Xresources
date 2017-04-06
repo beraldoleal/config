@@ -1,0 +1,93 @@
+URxvt.font: xft:inconsolata:size=12
+!!URxvt*font: xft:Terminess Powerline:size=12
+URxvt.perl-ext-common: font-size
+URxvt.keysym.C-Up:     font-size:increase
+URxvt.keysym.C-Down:   font-size:decrease
+URxvt.keysym.C-S-Up:   font-size:incglobal
+URxvt.keysym.C-S-Down: font-size:decglobal
+URxvt.keysym.C-equal:  font-size:reset
+URxvt.keysym.C-slash:  font-size:show
+
+!!! gruvbox color theme
+!!! https://github.com/morhetz/gruvbox
+!!! Converted by beraldoleal
+#define bg0      #282828
+#define gray8    #928374
+
+#define red1     #cc241d
+#define red9     #fb4934
+
+#define green2   #98971a
+#define green10  #b8bb26
+
+#define yellow3  #d79921
+#define yellow11 #fabd2f
+
+#define blue4    #458588
+#define blue12   #83a598
+
+#define purple5  #b16286
+#define purple13 #d3869b
+
+#define aqua6    #689d6a
+#define aqua14   #8ec07c
+
+#define gray7    #a89984
+#define fg0      #fbf1c7
+#define fg1      #ebdbb2
+#define fg2      #d5c4a1
+#define fg3      #bdae93
+#define fg4      #a89984
+
+#define bg1      #3c3836
+#define bg2      #504945
+#define bg3      #665c54
+#define bg4      #7c6f64
+
+#define bg0_s    #32302f
+#define bg0_h    #1d2021
+
+#define orange   #d65d0e
+#define orange_l #fe8019
+
+! Special
+*.foreground: fg4
+*.background: bg0
+*.cursorColor: fg0
+
+*.color0: bg0
+*.color8: gray8
+*.color1: red1
+*.color9: red9
+*.color2: green2
+*.color10: green10
+*.color3: yellow3
+*.color11: yellow11
+*.color4: blue4
+*.color12: blue12
+*.color5: purple5
+*.color13: purple13
+*.color6: aqua6
+*.color14: aqua14
+*.color7: gray7
+*.color15: fg0
+
+
+*.color237: bg1
+*.color239: bg2
+*.color241: bg3
+*.color243: bg4
+
+*.color246: fg4
+*.color248: fg3
+*.color250: fg2
+*.color223: fg1
+*.color229: fg0
+
+*.color166: orange
+*.color200: orange_l
+!!urxvt*transparent: true
+!!urxvt*shading: 15
+urxvt*scrollBar: false
+urxvt*scrollBar_right: false
+Xft*antialias:          true
