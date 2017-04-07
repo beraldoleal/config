@@ -8,6 +8,8 @@ URxvt.keysym.C-S-Down: font-size:decglobal
 URxvt.keysym.C-equal:  font-size:reset
 URxvt.keysym.C-slash:  font-size:show
 
+URxvt*scrollBar:       false
+
 !!! gruvbox color theme
 !!! https://github.com/morhetz/gruvbox
 !!! Converted by beraldoleal
