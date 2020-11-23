@@ -1,0 +1,54 @@
+# main options
+set realname = "Beraldo Leal"
+set from = "your_email@here.com"
+set mail_check = 0
+
+unset mark_old
+
+# sort/threading
+set sort     = threads
+#set sort_aux = reverse-last-date-received
+set sort_re
+
+set strict_threads = yes
+# look and feel
+set pager_index_lines = 8
+set pager_context     = 5
+set pager_stop
+set menu_scroll
+set smart_wrap
+set tilde
+unset markers
+set charset = 'utf-8'
+
+# composing 
+set fcc_attach
+unset mime_forward
+set forward_format = "Fwd: %s"
+set include
+set forward_quote
+
+ignore *                               # first, ignore all headers
+unignore from: to: cc: date: subject:  # then, show only these
+hdr_order from: to: cc: date: subject: # and in this order
+
+set sendmail = /usr/bin/msmtp
+
+set mbox_type = Maildir
+set folder = ~/Maildir
+source ~/.mutt/mailboxes
+unset record
+set spoolfile = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+set trash = "+[Gmail]/Trash"
+
+
+# Colors
+source ~/.mutt/mutt-colors-solarized-dark-256.muttrc
+#source ~/.mutt/patch-diff-colors.muttrc
+source ~/.mutt/mutt-patch-highlighting.muttrc
+#source ~/.mutt/terceiro.muttrc
+set editor = vim
+
+source ~/.mutt/.sidebarrc
+source ~/.mutt/.macrosrc
